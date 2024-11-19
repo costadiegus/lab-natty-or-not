@@ -20,22 +20,28 @@ Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisicu
 ### Template
 
 ```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+# Pesquisa Humanizada Automatizada com IA Generativa ;)
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+Este projeto simula a ação humana ao gerar um relatório detalhado com base em pesquisas na internet. Utilizando a tecnologia de text-to-action com agentes de Inteligência Artificial (IA), o objetivo é automatizar a coleta e a análise de informações, resultando em uma documentação precisa e relevante, como seria feita por um profissional da área do tema escolhido.
 
 ## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+LLM: Modelo de linguagem natural, utilizado para interpretar e gerar texto de maneira semelhante à comunicação humana. Por default foi utilizado o GPT porém pode ser usado qualquer outro setando na variável DEFAUL_LLM
+Ferramentas de Web Scraping: Utilizadas para coletar dados de diversas fontes na internet, no caso o SERPER.
+CreAI: Framework de criação de Multi-Agentes de IA.
 
 ## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+Definição dos Objetivos: Estabelecemos os requisitos do relatório e identificamos as fontes de dados relevantes.
+Configuração do Ambiente: Utilizamos a biblioteca CrewAI e suas dependências, necessárias para a criação dos Agentes de IA e suas ferramentas.
+Coleta de Dados: Implementamos ferramentas de web scraping para extrair informações de várias fontes na internet.
+Processamento com LLM: Utilizamos a IA para analisar os dados coletados e gerar conteúdo textual coerente e detalhado.
+Revisão e Ajustes: Revisamos o conteúdo gerado e ajustamos conforme necessário para garantir precisão e relevância.
 
 ## 🚀 Resultados
-Apresente os resultados do seu projeto
+O projeto resultou em um relatório automatizado que simula a ação humana na coleta e análise de informações da internet. O documento gerado é detalhado, preciso e apresenta uma visão abrangente do tema pesquisado, demonstrando a eficácia da abordagem text-to-action com agentes de IA.
 
 ## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
+Criar um relatório 'natty' com IA apresentou desafios interessantes, especialmente no que diz respeito à precisão e relevância dos dados coletados. No entanto, a combinação de ferramentas como GPT-4 e Swagger mostrou-se eficaz em superar esses desafios, resultando em um produto que simula de forma convincente a ação humana.
 ```
 
 ### Exemplos e Insigths
